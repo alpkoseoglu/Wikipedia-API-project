@@ -1,0 +1,72 @@
+.container-fluid {
+  height: 500px;
+  background: url("https://pbs.twimg.com/media/DWaCENWX0AUHPNT.jpg") no-repeat
+    center fixed;
+  background-size: cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+
+  padding: 10px;
+  padding-top: 400px;
+}
+.grid-container > div {
+  text-align: left;
+  padding: 20px 10px;
+  font-size: 30px;
+}
+
+input[type="text"] {
+  width: 140px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4em;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
+
+.btn {
+  width: 100px;
+  margin-left: 50px;
+  background-color: black;
+  border-color: white;
+}
+
+.btn:hover {
+  background-color: rgb(53, 58, 66);
+  border-color: white;
+}
+
+#results {
+  font-family: "Times New Roman";
+  background-color: rgb(213, 222, 237);
+}
+
+#links {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Times New Roman";
+  border-left: 2px solid black;
+}
+
+#links:hover {
+  color: black;
+  background-color: rgb(234, 246, 247);
+  border-left: 2px solid black;
+  margin-left: 5px;
+  font-family: "Times New Roman";
+}
