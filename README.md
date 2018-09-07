@@ -1,3 +1,3 @@
 # Wikipedia-API-project
 Freecodecamp challenge
-Testin Visual Studio Git Operations
+![snapshot image ](https://raw.githubusercontent.com/alpkoseoglu/Wikipedia-API-project/master/img/snapshot.png)
